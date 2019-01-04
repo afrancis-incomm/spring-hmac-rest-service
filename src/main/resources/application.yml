@@ -1,0 +1,26 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: Rest_HMAC_Service
+management: 
+  server:
+    port: 8585
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    beans:
+      cache:
+        time-to-live: 10s
+    health:
+      show-details: ALWAYS
+info:
+  contact:
+    email: afrancis@incomm.com
+    alternativeEmail: afrancis@incomm.com
+logging:
+  level:
+        org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+  
