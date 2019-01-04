@@ -5,7 +5,7 @@ This example application is based on the implementation of HMAC REST security as
 https://github.com/kpavlov/spring-hmac-rest
 
 Download the project and run it as a spring boot application.
-To see the API calls in action, use the ApiCLinet class and run the main method when the Spring boot app is running.
+To see the API calls in action, use the ApiClient class and run the main method when the Spring boot app is running.
 
 TO DO
 ------
